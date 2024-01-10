@@ -1,0 +1,51 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 1rem;
+  outline: unset;
+  padding: 1rem;
+  min-width: 50%;
+
+  .columns {
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    padding-top: 3rem;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .keys {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .values {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .label {
+    color: #777;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+  .value {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+  }
+
+  .closeBtn {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+  }
+}
