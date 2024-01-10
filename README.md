@@ -2,6 +2,6 @@
 
 run this commands:
 
-*> npm install
-*> npm run runServer
-*> npm run dev
+### npm install
+### npm run runServer
+### npm run dev
